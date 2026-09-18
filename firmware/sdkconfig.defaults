@@ -1,0 +1,5 @@
+# Default project settings for the ESP32 CNC controller.
+# Extend as GRBL-style motion planning, GPIO/step-timer and Wi-Fi/BT
+# features are ported in.
+
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y

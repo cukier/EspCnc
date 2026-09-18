@@ -1,0 +1,33 @@
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# =====================================================================
+# firmware/ (ESP-IDF)
+# =====================================================================
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+firmware/dependencies.lock
+firmware/**/build/
+
+# =====================================================================
+# hardware/ (KiCad)
+# =====================================================================
+hardware/*.bak
+hardware/*-bak
+hardware/_autosave-*
+hardware/fp-info-cache
+hardware/*.kicad_pcb-bak
+hardware/*.kicad_sch-bak
+hardware/*.kicad_prl
+hardware/*.lck
+hardware/**/*-backups/
+hardware/gerbers/
+hardware/plots/
+hardware/*.net~
