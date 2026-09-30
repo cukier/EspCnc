@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [],
@@ -457,7 +457,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.6,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -468,9 +468,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.6,
+        "via_diameter": 1.6,
+        "via_drill": 0.8,
         "wire_width": 6
       }
     ],
@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/cukier/Desktop/EspCnc",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -558,7 +558,7 @@
             "group_by": false,
             "label": "Datasheet",
             "name": "Datasheet",
-            "show": true
+            "show": false
           },
           {
             "group_by": false,
@@ -576,19 +576,13 @@
             "group_by": false,
             "label": "Description",
             "name": "Description",
-            "show": true
+            "show": false
           },
           {
             "group_by": false,
             "label": "#",
             "name": "${ITEM_NUMBER}",
             "show": false
-          },
-          {
-            "group_by": false,
-            "label": "PartNr",
-            "name": "PartNr",
-            "show": true
           }
         ],
         "filter_string": "",
@@ -648,7 +642,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -666,19 +660,13 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PartNr",
-          "name": "PartNr",
-          "show": true
         }
       ],
       "filter_string": "",
@@ -745,6 +733,46 @@
     [
       "5ab29ba4-dcb0-495d-a9e5-2ec418af7dd2",
       "usb"
+    ],
+    [
+      "82a9eb6b-8101-41b4-a818-d61f117508ec",
+      "motion"
+    ],
+    [
+      "17733366-7496-4db9-bce2-64b287ff5b6e",
+      "stepper_x"
+    ],
+    [
+      "db09151a-bbc4-4b43-b419-2c7845933f26",
+      "stepper_y"
+    ],
+    [
+      "6ab9574f-3613-473e-a2f5-7e06d8dcca23",
+      "stepper_z"
+    ],
+    [
+      "21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c",
+      "spindle"
+    ],
+    [
+      "8d814227-2890-479d-bd4a-8f227dd79c54",
+      "limits"
+    ],
+    [
+      "59f9a1d8-e5f1-46f5-b759-c9c50a4e056d",
+      "limit_x"
+    ],
+    [
+      "833c0266-bf3d-48d6-a2bb-d1447b28e8b3",
+      "limit_y"
+    ],
+    [
+      "dede1194-50dd-4013-a9e7-6b36510e15bf",
+      "limit_z"
+    ],
+    [
+      "58378da6-a3f0-40a9-9eaf-c7dc817f81a4",
+      "probe"
     ]
   ],
   "text_variables": {}

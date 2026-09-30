@@ -1,0 +1,506 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ae53d025-c134-448a-9956-e907dc121d1b")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 127 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1d1c1d-707e-4daf-b4c7-d1b269e395f5")
+	)
+	(junction
+		(at 127 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba457115-1bb9-4140-9f30-8229a97d3be2")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 127 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb9a634-9e07-40ae-8f1a-530892549623")
+	)
+	(wire
+		(pts
+			(xy 125.73 134.62) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4f13c5-8e14-4163-a94c-40cbbd915426")
+	)
+	(wire
+		(pts
+			(xy 128.27 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361aaf3b-cf96-490a-9244-a47cffa86097")
+	)
+	(wire
+		(pts
+			(xy 125.73 123.19) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf5a1ce-a881-4bc3-b966-ea4b7d8a8514")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9c3a5d-d87b-49f9-9147-07a566009f19")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5e959d-f396-461f-a886-be36e7364e4c")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a00001d-9c8b-4702-8893-8bd8fd0135fa")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a912d98-8414-4a9b-88dc-27cd2deb3903")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ae1c91-08e3-4902-a01c-4dce156c18b1")
+	)
+	(wire
+		(pts
+			(xy 125.73 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e79baf6-2f9f-4935-bdf6-0025a3145ebb")
+	)
+	(wire
+		(pts
+			(xy 125.73 120.65) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f088d06-0491-4339-aa85-739db64dd383")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7a1555-1263-40d9-919a-47d465d2d228")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3e155b-c642-4839-87fe-1419dcba80b0")
+	)
+	(hierarchical_label "STEP_X"
+		(shape input)
+		(at 125.73 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "096b22e5-c6d1-4056-9ece-09515eba9183")
+	)
+	(hierarchical_label "DIR_Y"
+		(shape input)
+		(at 125.73 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d7bbdc8-b460-44b2-85aa-9e055ff538b6")
+	)
+	(hierarchical_label "STEP_Y"
+		(shape input)
+		(at 125.73 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "328f7374-a8d1-4575-a766-013bbc4faa14")
+	)
+	(hierarchical_label "DIR_X"
+		(shape input)
+		(at 125.73 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9991381a-dbef-49dd-ba00-4283f4842522")
+	)
+	(hierarchical_label "STEP_Z"
+		(shape input)
+		(at 125.73 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa3bbd58-12e9-4e58-bef3-efaa929e2014")
+	)
+	(hierarchical_label "ENABLE_MOV"
+		(shape input)
+		(at 124.46 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2cc1b1e-d9dd-4814-ad3b-ebb14e5acab8")
+	)
+	(hierarchical_label "SPINDLE"
+		(shape input)
+		(at 125.73 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb5c659-c4a4-40fd-a45a-38115d9cef91")
+	)
+	(hierarchical_label "DIR_Z"
+		(shape input)
+		(at 125.73 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef8e05df-2d67-4d9c-9c97-7c833b227c2a")
+	)
+	(sheet
+		(at 128.27 93.98)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17733366-7496-4db9-bce2-64b287ff5b6e")
+		(property "Sheetname" "stepper_x"
+			(at 128.27 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepper_motor.kicad_sch"
+			(at 128.27 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIR" input
+			(at 128.27 95.25 180)
+			(uuid "5be6696b-842b-4a9a-8bc1-01c9e5accf0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 128.27 97.79 180)
+			(uuid "ce4ab868-0995-4b7b-8e04-7b645126a2d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 128.27 100.33 180)
+			(uuid "d80a19eb-458e-42f7-965e-b346403601eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 132.08)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c")
+		(property "Sheetname" "spindle"
+			(at 128.27 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spindle.kicad_sch"
+			(at 128.27 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPINDLE" input
+			(at 128.27 134.62 180)
+			(uuid "0faf808d-9483-4252-9fc6-984d97932ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 119.38)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ab9574f-3613-473e-a2f5-7e06d8dcca23")
+		(property "Sheetname" "stepper_z"
+			(at 128.27 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepper_motor.kicad_sch"
+			(at 128.27 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIR" input
+			(at 128.27 120.65 180)
+			(uuid "97be9b1c-c418-42fd-8e1b-550c474304d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 128.27 123.19 180)
+			(uuid "40f95680-a0ad-4282-ab5d-12ffd7eec7c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 128.27 125.73 180)
+			(uuid "66e8dd0a-01a6-4fd1-856c-2977d5f97a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 106.68)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db09151a-bbc4-4b43-b419-2c7845933f26")
+		(property "Sheetname" "stepper_y"
+			(at 128.27 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepper_motor.kicad_sch"
+			(at 128.27 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIR" input
+			(at 128.27 107.95 180)
+			(uuid "18320dbc-b3b4-4feb-833c-bf6f378b94c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 128.27 110.49 180)
+			(uuid "d0e8168e-16a1-4565-bd66-efb38cc8dce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ENABLE}" input
+			(at 128.27 113.03 180)
+			(uuid "298dee2a-9a1d-4229-ad4e-da8c96e265fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec"
+					(page "7")
+				)
+			)
+		)
+	)
+)

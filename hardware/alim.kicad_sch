@@ -527,6 +527,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Ferrite"
 			(pin_numbers
 				(hide yes)
@@ -816,6 +999,130 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2071,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 130.81) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22708836-6475-44f9-b0ed-b1e06783ea4b")
+	)
+	(wire
+		(pts
 			(xy 223.52 86.36) (xy 223.52 88.9)
 		)
 		(stroke
@@ -2221,6 +2538,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 120.65) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff555cc-05ed-499e-a71e-4f0169f98ee3")
+	)
+	(wire
+		(pts
 			(xy 151.13 81.28) (xy 151.13 78.74)
 		)
 		(stroke
@@ -2248,6 +2575,16 @@
 			(type default)
 		)
 		(uuid "89e564e4-f41d-4e10-a46e-c011e05b36e0")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 104.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc24844-be27-4914-9d96-6d4d603398f9")
 	)
 	(wire
 		(pts
@@ -2558,7 +2895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "084bd3ee-03d2-4d88-8f0f-31d73af8ccc3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -2608,7 +2945,7 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2764,7 +3101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a36d53c-b463-4a6f-aace-429834774c4c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -2814,7 +3151,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2900,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268a79fb-581c-4663-8eb5-c7c58892935d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 91.44 97.79 0)
 			(effects
 				(font
@@ -2950,7 +3287,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3027,6 +3364,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 104.14 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31811ecd-1f8b-428a-97cf-65221804edff")
+		(property "Reference" "R1"
+			(at 106.68 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 106.68 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 102.362 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "resistor smd 10k 1206"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79a649f7-86d5-499c-9a8b-c2ecfd89580a")
+		)
+		(pin "1"
+			(uuid "7af77cf7-8d5b-44df-a6b2-a370b2f3061e")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 87.63 0)
 		(unit 1)
@@ -3036,7 +3443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "345a150e-a0d8-4c8a-98af-3c31264a3899")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -3086,7 +3493,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3335de-1f95-4c1e-ba7f-546a42bdf9f3")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -3304,15 +3711,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNr" ""
-			(at 196.85 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "15e19d65-4dd5-4c5a-9b0f-fd0a424e4c0f")
 		)
@@ -3322,7 +3720,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3338,7 +3736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44702bcd-8c4e-4856-8244-e5e08ac57ea5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -3388,7 +3786,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3404,7 +3802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47123985-b89c-4328-a2ec-5ee472902df9")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -3454,7 +3852,7 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3470,7 +3868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59ec24cc-96b6-414d-aa94-9cb9ede01907")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 223.52 88.9 0)
 			(effects
 				(font
@@ -3520,7 +3918,7 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3579,15 +3977,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNr" ""
-			(at 68.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "fbd43415-483b-4667-8059-48d26a93127d")
 		)
@@ -3616,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74964199-6396-47bd-98c1-afc2a489412e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -3666,7 +4055,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3750,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973b879b-39cf-402d-a9db-0bf0a03ea02b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 196.85 101.6 0)
 			(effects
 				(font
@@ -3800,7 +4189,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR010")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3816,7 +4205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92b0fce-3a1b-43b7-974a-6ac500ae6e05")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -3866,7 +4255,73 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR011")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac0981a-f983-427f-8625-fea6145e0688")
+		(property "Reference" "#PWR010"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d7278e-901d-4500-9dfb-13b31160c548")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3882,7 +4337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2fde80-af36-433b-98ae-5da393cbeb4d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 167.64 104.14 0)
 			(effects
 				(font
@@ -3932,7 +4387,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4018,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8561ba1-0c90-4821-9c5c-e113e873ee11")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 223.52 104.14 0)
 			(effects
 				(font
@@ -4068,7 +4523,86 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR013")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 104.14 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d84070c1-d766-4ad4-8698-2522ef703f42")
+		(property "Reference" "D2"
+			(at 107.95 127.3174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR"
+			(at 107.95 129.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be705f8e-383f-4145-b137-ed8719a742de")
+		)
+		(pin "1"
+			(uuid "d05feb00-ae8a-49fb-ad72-e0309de04cff")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4084,7 +4618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daecd8bf-4a74-4ddf-b6b5-4f4fad814b50")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 151.13 91.1224 90)
 			(effects
 				(font
@@ -4138,7 +4672,73 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "D2")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 104.14 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e540e8-a17d-4f1e-9dd5-a6a92172c000")
+		(property "Reference" "#PWR09"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfc6a728-ac90-44f8-a25e-75cde7f21da9")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4215,15 +4815,6 @@
 				(hide yes)
 			)
 		)
-		(property "PartNr" ""
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "415fdf01-a2a9-4ed6-a09f-d224c0f5adea")
 		)
@@ -4249,7 +4840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcaaf1b0-1f49-4130-bb9e-5af00c35648a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -4299,7 +4890,7 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd5d9d6b-0fac-4f98-b284-d141ecdbf7c1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 209.55 104.14 0)
 			(effects
 				(font
@@ -4365,7 +4956,7 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/5e8805bc-210a-48ae-844b-a4af6728027c"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
