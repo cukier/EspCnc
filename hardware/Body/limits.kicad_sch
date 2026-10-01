@@ -854,7 +854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455fd996-711f-4e13-9629-03b0dd930a26")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 123.19 82.55 0)
 			(effects
 				(font
@@ -924,7 +924,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54"
-					(reference "J10")
+					(reference "J?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -940,7 +946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e08d90-5cef-45f5-b114-b723b5b86755")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR04"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -990,7 +996,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54"
-					(reference "#PWR081")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1006,7 +1018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dfc0c4-68bb-4fc3-ab00-a58790328ad2")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR05"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -1056,7 +1068,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54"
-					(reference "#PWR082")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1122,6 +1140,16 @@
 					(page "14")
 				)
 			)
+			(project ""
+				(path "/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "#")
+				)
+			)
+			(project "Body"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "6")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1182,6 +1210,16 @@
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54"
 					(page "11")
+				)
+			)
+			(project ""
+				(path "/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "#")
+				)
+			)
+			(project "Body"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "3")
 				)
 			)
 		)
@@ -1246,6 +1284,16 @@
 					(page "12")
 				)
 			)
+			(project ""
+				(path "/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "#")
+				)
+			)
+			(project "Body"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "4")
+				)
+			)
 		)
 	)
 	(sheet
@@ -1306,6 +1354,16 @@
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54"
 					(page "13")
+				)
+			)
+			(project ""
+				(path "/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "#")
+				)
+			)
+			(project "Body"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987"
+					(page "5")
 				)
 			)
 		)

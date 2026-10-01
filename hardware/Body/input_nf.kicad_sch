@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c5b04f80-944e-4fb4-b90c-a3c13a35fe6b")
+	(uuid "0bc6a52a-50be-41b6-b55c-2253e0e29300")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -623,131 +623,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -976,217 +851,379 @@
 		)
 	)
 	(junction
-		(at 158.75 88.9)
+		(at 134.62 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "117ebd53-5d2a-4e9f-b2a4-0fa3bceb0b70")
+		(uuid "740ad427-ad23-4a91-ba17-cfcee7c16946")
 	)
 	(junction
-		(at 119.38 96.52)
+		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41bc52e9-6060-4046-9ac7-d0d4e2a9cb20")
+		(uuid "85137c0b-a4cd-4373-8ac7-e8b094aaa02d")
 	)
 	(junction
-		(at 148.59 96.52)
+		(at 167.64 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dbd1e1a8-234f-47d7-906a-9c8018682f28")
+		(uuid "fff67027-b5e5-4b19-bcd6-200d2049c2f1")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 119.38 96.52)
+			(xy 123.19 102.87) (xy 123.19 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08732a1e-e8ab-4eab-86b7-a32122cb0b1b")
+		(uuid "253100b2-b79e-478b-b4af-bddeb8328146")
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 128.27 96.52)
+			(xy 120.65 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fefb5fc-7eb5-4527-952c-0c89257754ec")
+		(uuid "2ee99e46-c740-4645-8521-6e8b15c9794d")
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 119.38 86.36)
+			(xy 167.64 86.36) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "236b259a-a7d3-459f-a450-c86a69eba59e")
+		(uuid "3f6166f0-3637-4a76-872c-c9cc1f8d29b4")
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 158.75 91.44)
+			(xy 167.64 76.2) (xy 167.64 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "258e3bd4-dee7-4717-8e77-24a60556a91b")
+		(uuid "6b176d37-90e5-4311-a8e0-ba54c6aa5a30")
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 151.13 96.52)
+			(xy 167.64 85.09) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "258f9b56-aad9-43f1-aa2e-2c9757693e0f")
+		(uuid "8010477b-c9be-4404-9441-a585af7a99f4")
 	)
 	(wire
 		(pts
-			(xy 158.75 101.6) (xy 158.75 102.87)
+			(xy 167.64 86.36) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "371ba470-7895-4d6e-8324-47ce9b9fb6fc")
+		(uuid "847c3cec-bf70-4b85-8ebc-0fa8b1f2e2ae")
 	)
 	(wire
 		(pts
-			(xy 158.75 88.9) (xy 161.29 88.9)
+			(xy 157.48 93.98) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a6cd189-c7e2-4d1a-8074-61a8d30f1b6f")
+		(uuid "8d856bf1-ca4a-48c4-80e5-a5889871f0bf")
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 96.52)
+			(xy 134.62 102.87) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91798b4c-bce5-4629-9d58-92f6c96649cf")
+		(uuid "9caaac1d-6d2d-4e62-a842-602ae3baba98")
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 158.75 88.9)
+			(xy 134.62 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3feb951-1627-4836-84a2-2b0a7a66319a")
+		(uuid "ae80f193-66a0-44a1-b4ee-de6c5827170a")
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 119.38 97.79)
+			(xy 147.32 93.98) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0b3b572-f62f-4d5f-8e67-aac907a2a36f")
+		(uuid "c7dab8a2-f099-4d5b-9f26-126b4b244893")
 	)
 	(wire
 		(pts
-			(xy 119.38 105.41) (xy 119.38 106.68)
+			(xy 134.62 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c22c6152-d73c-4bbb-83d8-22cd1494f82f")
+		(uuid "cf1c6270-f9f8-414f-988f-7a8a780f1808")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 148.59 96.52)
+			(xy 123.19 93.98) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dae45d43-7cda-4a14-9c0a-7e48da9b728d")
+		(uuid "df46c59d-5a82-434b-a2a1-b4815c8704a1")
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 148.59 99.06)
+			(xy 134.62 95.25) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df4b4850-2dd9-4bc4-899f-34b5266f5c15")
+		(uuid "ef85d1b8-0d78-42be-a21e-388998334fa7")
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 158.75 80.01)
+			(xy 167.64 99.06) (xy 167.64 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfa70f3a-f37b-4abc-b530-13f4d912fd22")
+		(uuid "f50a5b83-38f8-4982-a87d-f2f3bec30190")
 	)
-	(wire
-		(pts
-			(xy 148.59 106.68) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b4f70f-e962-4cc5-9c9d-50230490b6f2")
-	)
-	(wire
-		(pts
-			(xy 135.89 96.52) (xy 138.43 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2cd7fb-ebbc-472e-8b69-696ae0a3eb55")
-	)
-	(hierarchical_label "SIGNAL"
-		(shape output)
-		(at 161.29 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9af4402-6285-4a87-b8fd-5d69d0464276")
-	)
-	(hierarchical_label "PROBE"
+	(hierarchical_label "LIMIT"
 		(shape input)
-		(at 113.03 96.52 180)
+		(at 120.65 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e731434c-a373-4d2c-ae04-1d2405af85be")
+		(uuid "ba424d6d-0f68-4be9-b5ee-b5a7c36aedb4")
+	)
+	(hierarchical_label "ALARM"
+		(shape output)
+		(at 170.18 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5841372-594f-4fbe-abd5-c7bf956ffa35")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 102.87 0)
+		(lib_id "Device:R")
+		(at 153.67 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "236eddd0-0c3e-4df6-9156-fc0fdffa98bb")
-		(property "Reference" "#PWR099"
-			(at 158.75 109.22 0)
+		(uuid "0ca3149f-2780-49bb-85ca-9e2f0e5191c1")
+		(property "Reference" "R2"
+			(at 153.67 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 153.67 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62005054-9b96-450a-bd6b-5c14f2f2ed74")
+		)
+		(pin "1"
+			(uuid "1eebe6f2-596e-4a52-8a64-305f40cf69ce")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cef2d06-1f7a-4b09-b5b7-782c8651083c")
+		(property "Reference" "R1"
+			(at 137.16 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 132.842 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d7353f2-5b5d-4039-b69a-36418d8d8c23")
+		)
+		(pin "1"
+			(uuid "f767df0b-cfe1-4b4b-ad2e-ad5a4f45199e")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d90ac4-c665-4952-b77f-fa6b3ac870b6")
+		(property "Reference" "#PWR09"
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 107.95 0)
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 102.87 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 102.87 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 102.87 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,355 +1267,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "2897bc00-6201-4f06-8660-c1cfd50964ea")
+			(uuid "811eb89c-06f9-4652-bdf4-85fbc9b4f1de")
 		)
 		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "#PWR099")
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e6d1b27-da55-4b5b-bfbe-206941a07db6")
-		(property "Reference" "R31"
-			(at 142.24 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 142.24 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 142.24 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bd23092-7696-43e3-a833-c24aaa39eda8")
-		)
-		(pin "1"
-			(uuid "e1165988-1512-4226-bc52-daf13bc1e050")
-		)
-		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "R31")
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR09")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f0eea5f-6e76-4d13-b74a-1fb2568378a2")
-		(property "Reference" "C21"
-			(at 123.19 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 123.19 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 120.3452 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588933331530485760-C85866.pdf?response-content-disposition=attachment%3B%20filename%3DC85866.pdf%3B%20filename%2A%3DUTF-8%27%27C85866.pdf&x-oss-date=20260918T180936Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nYA%2FKMl5cX2K%2BgRBLypkwDasN616iagzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb9MnlIi557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkpvXdMa%2B6HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIMWNeJqKWD5sagAGA8qhiJs6n%2BDPEfcvQHivACt7yGJ%2B0%2BnX81WBb6bYPVuc6MpfIxYkbBFdn1K49AhGCpYKqC6o9U2YyV%2F2M2RYCIAaoKkK5%2Bv3wAhT2iP%2B20KZBURg9YHdvfZN6GXuU7pyL%2F0qKC5HbgIm1HC1MqaZzzXMWwGnwjZXVfZoE%2Bc3nxCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZmHH8zH6omKF4CBLVfLV8m1a%2F20260918%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=db84a8fbb7db2e1726d5369da40dfd3961deb08d65805d5418976a692a962025"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 119.38 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6edb3b6e-7d8b-44da-9d28-91edb2136b31")
-		)
-		(pin "2"
-			(uuid "08babe65-82bb-4a37-bea2-fccc72d0ba44")
-		)
-		(instances
-			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "C21")
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR013")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54d0ebf3-ad44-4bbf-8d9c-90d78071b457")
-		(property "Reference" "R33"
-			(at 161.29 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 161.29 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 156.972 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55f24201-1a4e-4367-800e-36867d00c484")
-		)
-		(pin "1"
-			(uuid "cb398aa6-9e81-4e98-8316-ab319cdb4d46")
-		)
-		(instances
-			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5821c9ae-0852-4424-89a0-9af2d5f15e17")
-		(property "Reference" "R30"
-			(at 121.92 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.92 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 117.602 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31f64211-4645-4d78-a14a-9fe25519225e")
-		)
-		(pin "1"
-			(uuid "2d04617b-3da6-431f-9e0a-98369a2a17f6")
-		)
-		(instances
-			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78796ed4-f09a-4119-a5bf-4d773adb7bf5")
-		(property "Reference" "#PWR097"
-			(at 148.59 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c7779e-fcd0-4277-a485-da02b48fa980")
-		)
-		(instances
-			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "#PWR097")
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1586,16 +1302,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 132.08 96.52 0)
+		(at 143.51 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7edf9558-0985-4943-9c5b-6a53f8e41016")
-		(property "Reference" "D10"
-			(at 132.08 90.17 0)
+		(uuid "572013c1-668b-47f0-becc-c5ccc0fe7a17")
+		(property "Reference" "D1"
+			(at 143.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1319,7 @@
 			)
 		)
 		(property "Value" "BZx558v2"
-			(at 132.08 92.71 0)
+			(at 143.51 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MELF_Handsoldering"
-			(at 132.08 96.52 0)
+			(at 143.51 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 96.52 0)
+			(at 143.51 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1345,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 132.08 96.52 0)
+			(at 143.51 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,147 +1354,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "684ce414-5736-409e-b6e1-a4680db9a8c2")
+			(uuid "4ec44e71-2aaa-4d5d-8049-44996da16a7a")
 		)
 		(pin "2"
-			(uuid "de71f3e7-8719-4046-82db-f43129000db6")
+			(uuid "02c3283c-a4a0-4743-be83-05506c29038e")
 		)
 		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "D10")
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "D?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2981e44-b7a1-4284-9eb7-2bd0b7762dd0")
-		(property "Reference" "#PWR096"
-			(at 119.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbc84d4f-dfd7-4f06-9944-8796da0a36cd")
-		)
-		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "#PWR096")
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "D1")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 119.38 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c55188c9-eb0c-43ad-a3ad-40b3420cd2b4")
-		(property "Reference" "#PWR095"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "D2")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 119.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 119.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c668e4cb-9b16-4972-a1f1-bb3a5da94fee")
-		)
-		(instances
-			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "#PWR095")
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1786,16 +1392,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC337")
-		(at 156.21 96.52 0)
+		(at 165.1 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5f91c42-c6af-43ae-bd20-b461a023a2e7")
-		(property "Reference" "Q7"
-			(at 161.29 95.2499 0)
+		(uuid "73a8c7a7-8f11-4857-8977-969cd4424adb")
+		(property "Reference" "Q1"
+			(at 170.18 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1410,7 @@
 			)
 		)
 		(property "Value" "BC337"
-			(at 161.29 97.7899 0)
+			(at 170.18 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1419,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 161.29 98.425 0)
+			(at 170.18 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1430,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 156.21 96.52 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1440,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 156.21 96.52 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,18 +1449,220 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8e841cd-78a1-4e8e-82ad-9a8d6cab971c")
+			(uuid "8b12fa90-24d7-4abd-823d-074180bce0d4")
 		)
 		(pin "2"
-			(uuid "1cfb92cc-384c-481b-a99c-189f0a1e3414")
+			(uuid "9e3a3f6e-2595-4402-9b35-d40a6d0f195d")
 		)
 		(pin "3"
-			(uuid "a43f8e51-cf39-4ab1-9a56-884d020b332b")
+			(uuid "913133a6-5d95-49ad-8e63-36bdd6addbe2")
 		)
 		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "Q7")
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f087a12-7df6-4d72-9ec2-3d3b56b56666")
+		(property "Reference" "C1"
+			(at 127 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 127 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 124.1552 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588933331530485760-C85866.pdf?response-content-disposition=attachment%3B%20filename%3DC85866.pdf%3B%20filename%2A%3DUTF-8%27%27C85866.pdf&x-oss-date=20260918T180936Z&x-oss-expires=3600&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nYA%2FKMl5cX2K%2BgRBLypkwDasN616iagzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qb9MnlIi557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkpvXdMa%2B6HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIMWNeJqKWD5sagAGA8qhiJs6n%2BDPEfcvQHivACt7yGJ%2B0%2BnX81WBb6bYPVuc6MpfIxYkbBFdn1K49AhGCpYKqC6o9U2YyV%2F2M2RYCIAaoKkK5%2Bv3wAhT2iP%2B20KZBURg9YHdvfZN6GXuU7pyL%2F0qKC5HbgIm1HC1MqaZzzXMWwGnwjZXVfZoE%2Bc3nxCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZmHH8zH6omKF4CBLVfLV8m1a%2F20260918%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=db84a8fbb7db2e1726d5369da40dfd3961deb08d65805d5418976a692a962025"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a193d61-163e-4a58-b5c9-0c2446899545")
+		)
+		(pin "2"
+			(uuid "fd1d8ee9-26f9-4d6f-a477-efe300bd255b")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b256a734-b8d7-40b3-b99c-d6e741f014e5")
+		(property "Reference" "#PWR06"
+			(at 123.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82f3cca7-e96b-4147-bffc-713df3747d47")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1862,16 +1670,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 78.74 0)
+		(at 167.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd63c961-f90c-4634-9fcd-0e2b9031c61d")
-		(property "Reference" "#PWR098"
-			(at 158.75 82.55 0)
+		(uuid "baf11f1e-9757-4b20-9ad4-2ceb44cb35c7")
+		(property "Reference" "#PWR08"
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1688,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 158.75 73.66 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 78.74 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 78.74 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 158.75 78.74 0)
+			(at 167.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,12 +1723,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "06e94733-1971-43d6-b2d4-4908a6f2f1d3")
+			(uuid "d1143e3c-ff4c-4389-a2f5-ffc7b745d02c")
 		)
 		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "#PWR098")
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1928,16 +1758,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 102.87 0)
+		(at 167.64 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcc403c5-ca39-46a2-b261-b03bcbe7167a")
-		(property "Reference" "R32"
-			(at 151.13 101.5999 0)
+		(uuid "e6eb062a-f6f5-43e0-96aa-c9c0935381c3")
+		(property "Reference" "R3"
+			(at 170.18 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1776,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 104.1399 0)
+			(at 170.18 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +1784,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 146.812 102.87 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 165.862 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 102.87 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 102.87 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,15 +1812,125 @@
 			)
 		)
 		(pin "2"
-			(uuid "408a9d0d-0409-4b5a-9d15-ba744cf3e61c")
+			(uuid "04a9a57e-dae2-4a26-b441-7063f79ef8c9")
 		)
 		(pin "1"
-			(uuid "c4e6e247-d546-4415-8db8-d5b4f828ae09")
+			(uuid "1778e9ec-fcc2-45bd-a0bd-64a20895ba20")
 		)
 		(instances
 			(project "EspCnc"
-				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/58378da6-a3f0-40a9-9eaf-c7dc817f81a4"
-					(reference "R32")
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05a91f7-ca3c-42d2-865b-b3b21d3065f4")
+		(property "Reference" "#PWR07"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6af06b9-b962-4e94-a193-480c5a4a62a1")
+		)
+		(instances
+			(project "EspCnc"
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/8d814227-2890-479d-bd4a-8f227dd79c54/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/59f9a1d8-e5f1-46f5-b759-c9c50a4e056d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/833c0266-bf3d-48d6-a2bb-d1447b28e8b3"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/0f8c8205-1814-4895-9f03-c322dd43f987/dede1194-50dd-4013-a9e7-6b36510e15bf"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

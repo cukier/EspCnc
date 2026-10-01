@@ -1545,7 +1545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1087aac1-77be-493a-b363-eca22de93379")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 171.45 110.4899 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 168.6052 115.57 0)
 			(effects
 				(font
@@ -1599,7 +1599,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "C17")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1615,7 +1621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f009df-34d4-44f2-9592-0902f9dfb629")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR059"
 			(at 142.24 128.27 0)
 			(effects
 				(font
@@ -1665,7 +1671,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "#PWR076")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1681,7 +1693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1795265d-8114-4553-9a33-6bb3e15b02ca")
-		(property "Reference" "R18"
+		(property "Reference" "R26"
 			(at 135.89 104.14 90)
 			(effects
 				(font
@@ -1697,7 +1709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 135.89 108.712 90)
 			(effects
 				(font
@@ -1733,7 +1745,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "R18")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1749,7 +1767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cef93f9-7d1e-4efe-9773-3de58c146b90")
-		(property "Reference" "R19"
+		(property "Reference" "R27"
 			(at 144.78 115.5699 0)
 			(effects
 				(font
@@ -1767,7 +1785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.462 116.84 90)
 			(effects
 				(font
@@ -1803,7 +1821,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "R19")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1819,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34110019-1f4e-4d76-855d-63cd266a6c88")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR063"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -1869,7 +1893,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "#PWR080")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1885,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9be344f6-3292-4fd9-93a0-7e219f3f8128")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR060"
 			(at 152.4 90.17 0)
 			(effects
 				(font
@@ -1935,7 +1965,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "#PWR077")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61174cb-2596-4f6d-b939-bea2519cfe3a")
-		(property "Reference" "R20"
+		(property "Reference" "R28"
 			(at 168.91 81.2799 0)
 			(effects
 				(font
@@ -1969,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 164.592 82.55 90)
 			(effects
 				(font
@@ -2005,7 +2041,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "R20")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2022,7 +2064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8351f2f-ce2b-4c01-ab54-6f56b2aeff3a")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -2074,7 +2116,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "J9")
+					(reference "J?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2144,6 +2192,12 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
 					(reference "D5")
 					(unit 1)
 				)
@@ -2160,7 +2214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d60e4b33-3e63-44c4-9587-2811abd9ddef")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR062"
 			(at 166.37 81.28 0)
 			(effects
 				(font
@@ -2210,7 +2264,13 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "#PWR079")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2226,7 +2286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2c712f-e160-40db-bade-6e348cb9a77b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR061"
 			(at 152.4 124.46 0)
 			(effects
 				(font
@@ -2276,7 +2336,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "#PWR078")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8650402-333a-4ab8-906a-2ae27a2ebcb8")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 156.21 109.2199 0)
 			(effects
 				(font
@@ -2352,7 +2418,13 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
-					(reference "Q3")
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2431,6 +2503,12 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/21fb5a4d-b05a-4fb9-a69b-49a9cdd3184c"
 					(reference "D6")
 					(unit 1)
 				)

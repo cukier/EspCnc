@@ -2249,7 +2249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dc35c81-9413-4bcf-ac40-919c1af2f0ff")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR034"
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -2300,15 +2300,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR051")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR075")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR063")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54481fa2-4f06-4c40-9da6-8aab26231556")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 124.46 69.8499 0)
 			(effects
 				(font
@@ -2342,7 +2356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 120.142 71.12 90)
 			(effects
 				(font
@@ -2378,15 +2392,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "R6")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "R14")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "R10")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56da676d-ade3-4749-8ccb-a1758c9cd7f1")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR028"
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -2452,15 +2480,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR045")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR069")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR057")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5809152f-69f6-4988-8d50-2002200b413c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR026"
 			(at 135.89 68.58 0)
 			(effects
 				(font
@@ -2526,15 +2568,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR043")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR067")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR055")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e489fb2-c21c-497d-9c32-ff40a3ec4ec9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR027"
 			(at 144.78 63.5 0)
 			(effects
 				(font
@@ -2600,15 +2656,29 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR044")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR068")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR056")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2688,14 +2758,28 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "SW1")
+					(reference "SW?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "SW3")
+					(reference "SW?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "SW1")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -2712,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8583eca9-3523-4158-9286-d57b5117da80")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 135.89 102.8699 0)
 			(effects
 				(font
@@ -2730,7 +2814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 135.128 104.14 90)
 			(effects
 				(font
@@ -2766,15 +2850,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "R8")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "R16")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "R12")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2887,14 +2985,28 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "A1")
+					(reference "A?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "A3")
+					(reference "A?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "A?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "A1")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "A3")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
 					(reference "A2")
 					(unit 1)
 				)
@@ -2911,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "916ca68c-abf8-4390-90bc-b65b28c4b9f1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR033"
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -2961,15 +3073,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR050")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR074")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR062")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2985,7 +3111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b48fe0fa-e6fb-48d4-9dd1-cf5321ce77f7")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 184.15 60.9599 0)
 			(effects
 				(font
@@ -3003,7 +3129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.3052 66.04 0)
 			(effects
 				(font
@@ -3039,15 +3165,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "C12")
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "C16")
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "C14")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b570c523-6b82-410c-96ab-8aef1570293c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR023"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -3113,15 +3253,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR040")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR064")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR052")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be38bcf3-052a-41bc-8edc-d02db8b605c8")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 127 102.8699 0)
 			(effects
 				(font
@@ -3155,7 +3309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 131.318 104.14 90)
 			(effects
 				(font
@@ -3191,15 +3345,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "R7")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "R15")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "R11")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce43ed19-6af8-4455-808d-6175ae855820")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR029"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -3265,15 +3433,29 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR046")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR070")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR058")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf95ccd4-8708-4e73-8c5b-c13d2c91c9bc")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR030"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -3340,15 +3522,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR047")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR071")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR059")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3364,7 +3560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1670cae-aa12-47c9-9cf4-f2c726669b81")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 179.07 81.2799 0)
 			(effects
 				(font
@@ -3424,15 +3620,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "J6")
+					(reference "J?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "J8")
+					(reference "J?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "J7")
+					(reference "J?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc84cb0-06c2-4b19-83b4-60a4a38a2673")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR025"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -3498,15 +3708,29 @@
 		(instances
 			(project ""
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR042")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR066")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR054")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de55cf2f-fe9d-462c-a884-1709a2c26acf")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR031"
 			(at 166.37 62.23 0)
 			(effects
 				(font
@@ -3572,15 +3796,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR048")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR072")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR060")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3596,7 +3834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49768c7-a6a8-4072-a826-048c960b4fd7")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 120.65 110.49 0)
 			(effects
 				(font
@@ -3646,15 +3884,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR041")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR065")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR053")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3670,7 +3922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e618e793-b2b9-44b9-b83f-366df81eac72")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 139.7 102.8699 0)
 			(effects
 				(font
@@ -3688,7 +3940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 138.938 104.14 90)
 			(effects
 				(font
@@ -3724,15 +3976,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "R9")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "R17")
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "R13")
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3748,7 +4014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea3af45f-f3ab-42a3-90a4-b42900188a1c")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 170.18 61.3409 0)
 			(effects
 				(font
@@ -3802,15 +4068,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "C15")
+					(reference "C?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "C13")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3826,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb942139-3580-4a10-b63e-563d6a84c5fc")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR032"
 			(at 166.37 74.93 0)
 			(effects
 				(font
@@ -3877,15 +4157,29 @@
 		(instances
 			(project "EspCnc"
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/17733366-7496-4db9-bce2-64b287ff5b6e"
-					(reference "#PWR049")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
-					(reference "#PWR073")
+					(reference "#PWR?")
 					(unit 1)
 				)
 				(path "/6f9c8b4e-1c2d-4e3a-9f5a-2b7d0a1c3e4f/82a9eb6b-8101-41b4-a818-d61f117508ec/db09151a-bbc4-4b43-b419-2c7845933f26"
-					(reference "#PWR061")
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EspCnc"
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/17733366-7496-4db9-bce2-64b287ff5b6e"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/6ab9574f-3613-473e-a2f5-7e06d8dcca23"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/9e3a63c4-e579-41b0-bbee-849c98c6e950/34ae5d1e-c71f-41e9-8c57-d789a35afc13/db09151a-bbc4-4b43-b419-2c7845933f26"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
